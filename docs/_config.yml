@@ -5,11 +5,14 @@ description: Minimalistic is a theme powered by Jekyll.
 favicon: true
 color-scheme: auto
 
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
-
+  - jekyll-remote-theme
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
