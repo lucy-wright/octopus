@@ -6,53 +6,36 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 ## About me
 
-I am a PhD research student in Geophysics, based in the School of Earth Sciences at the University of Bristol. I'm interested in planetary atmospheres in our solar system and beyond.
+I am a **PhD research student** in Geophysics, based in the School of Earth Sciences at the **University of Bristol**. I'm interested in planetary atmospheres in our solar system and beyond.
 
-I'm currently working with infrared spectra acquired by NASA/ESA/ASI's Cassini-Huygens mission to investigate the atmosphere of Saturn's largest moon Titan.
+I'm currently analysing infrared spectra acquired by [NASA/ESA/ASI's Cassini-Huygens mission](https://solarsystem.nasa.gov/missions/cassini/overview/) to investigate the atmosphere of Saturn's largest moon, Titan.
+
+I'm supervised by Dr Nick Teanby. My PhD is funded by the Science and Technology Facilities Council (STFC).
+
+I also enjoy playing water polo.
 
 ![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan.png)
 
-## Header 2
+* * *
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Education
 
+2021 - present\
+**PhD Geophysics** | Univserity of Bristol
 
-#### Header 4
+2020 - 2021\
+**PGCE Science (Physics)** | University of Cambridge
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+2016 - 2020\
+**MPhys Physics** | University of Oxford
 
 
 ![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan_2.png)
 
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
 * * *
+
 
 ### Here is an unordered list:
 
