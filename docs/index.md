@@ -12,9 +12,11 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ## About me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+I am a PhD research student in Geophysics, based in the School of Earth Sciences at the University of Bristol. I'm interested in planetary atmospheres in our solar system and beyond.
 
-![Branching](https://github.com/lucy-wright/octopus/docs/polo_titan.png)
+I'm currently working with infrared spectra acquired by NASA/ESA/ASI's Cassini-Huygens mission to investigate the atmosphere of Saturn's largest moon Titan.
+
+![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan.png)
 
 ## Header 2
 
@@ -22,22 +24,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Header 4
 
@@ -50,6 +36,10 @@ end
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
+
+
+![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan_2.png)
+
 
 ###### Header 6
 
