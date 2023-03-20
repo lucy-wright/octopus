@@ -16,7 +16,7 @@ I'm supervised by Dr Nick Teanby. My PhD is funded by the Science and Technology
 
 I also enjoy playing water polo.
 
-![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan.png)
+![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/assets/img/polo_titan.png)
 
 * * *
 
@@ -32,7 +32,7 @@ I also enjoy playing water polo.
 **MPhys Physics** | University of Oxford
 
 
-![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan_2.png)
+![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/assets/img/polo_titan_2.png)
 
 * * *
 
