@@ -16,10 +16,13 @@ plugins:
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
+    link: https://github.com/lucy-wright
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://www.linkedin.com/in/lucy-wright-659628211
+  - name: ORCID iD
+    icon: <i class="fa-brands fa-orcid"></i>
+    link: https://orcid.org/0000-0002-6023-5755
 
 navigation:
   - name: Home page
