@@ -32,5 +32,5 @@ navigation:
         link: ./index.html#aboutme
       - name: Education
         link: ./index.html#education
-  - name: Conferences
+  - name: Conference Contributions
     link: ./conferences.html
