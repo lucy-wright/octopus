@@ -1,0 +1,18 @@
+current directory: /Users/tu21924/octopus/octopus/docs/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+/Users/tu21924/.rubies/ruby-3.1.3/bin/ruby -I /Users/tu21924/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/tu21924/octopus/octopus/docs/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230710-63057-anrdfo sitelibdir\=./.gem.20230710-63057-anrdfo clean
+
+current directory: /Users/tu21924/octopus/octopus/docs/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230710-63057-anrdfo sitelibdir\=./.gem.20230710-63057-anrdfo
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/tu21924/octopus/octopus/docs/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230710-63057-anrdfo sitelibdir\=./.gem.20230710-63057-anrdfo install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230710-63057-anrdfo/racc
