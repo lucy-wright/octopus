@@ -25,12 +25,12 @@ platforms:
     link: https://orcid.org/0000-0002-6023-5755
 
 navigation:
-  - name: Home page
+  - name: Home
     link: ./index.html
     sublist:
       - name: About Me
         link: ./index.html#aboutme
       - name: Education
         link: ./index.html#education
-  - name: Conference Contributions
+  - name: Research
     link: ./conferences.html
