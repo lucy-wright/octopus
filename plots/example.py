@@ -18,11 +18,11 @@ ax1.plot(x, y)
 #Save the figure to our local machine
 ################################################
 
-plt.savefig('xyplot.png')
+plt.savefig('example_plot.png')
 
 
 # Transform to HTML code
 html_str = mpld3.fig_to_html(fig)
-Html_file= open("plot.html","w")
+Html_file= open("example_plot.html","w")
 Html_file.write(html_str)
 Html_file.close()
