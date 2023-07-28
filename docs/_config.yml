@@ -34,3 +34,5 @@ navigation:
         link: ./index.html#education
   - name: Research
     link: ./conferences.html
+  - name: A Plot
+    link: ./plot.html

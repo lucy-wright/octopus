@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 import mpld3
 import numpy as numpy
 import planetmapper
+from datetime import datetime
+
+# Get current date and time
+datetime_now = datetime.now()
 
 # Plot wireframe of Saturn geometry w.r.t. Earth
 body = planetmapper.Body('saturn', '2023-07-28')
@@ -17,6 +21,7 @@ body.coordinates_of_interest_lonlat.append((360, -45)) # mark this specific coor
 # Make figure
 fig, ax = plt.subplots(figsize=(3, 3), dpi=200)
 body.plot_wireframe_radec(ax, color='white')
+ax.set_title(str(datetime_now), color='white')
 
 # Change colour of plot
 ax.set_facecolor('#1a1919') # make plot background colour same as website background colour

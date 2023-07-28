@@ -13,14 +13,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="PhD Research Student in Geophysics at the University of Bristol." />
 <meta property="og:description" content="PhD Research Student in Geophysics at the University of Bristol." />
-<link rel="canonical" href="http://localhost:4000/old_indexmd" />
-<meta property="og:url" content="http://localhost:4000/old_indexmd" />
+<link rel="canonical" href="http://localhost:4000/plot.html" />
+<meta property="og:url" content="http://localhost:4000/plot.html" />
 <meta property="og:site_name" content="Lucy Wright" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lucy Wright" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"PhD Research Student in Geophysics at the University of Bristol.","headline":"Lucy Wright","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/LW_headshot.jpg"}},"url":"http://localhost:4000/old_indexmd"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"PhD Research Student in Geophysics at the University of Bristol.","headline":"Lucy Wright","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/LW_headshot.jpg"}},"url":"http://localhost:4000/plot.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/colors-auto.css?v=">
@@ -157,38 +157,46 @@
 </div>
       </div>
       <section>
-      [conferences](./conferences.html).
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C96ZKC17TW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-## About me
+  gtag('config', 'G-C96ZKC17TW');
+</script>
 
-I am a **PhD research student** in Geophysics, based in the School of Earth Sciences at the **University of Bristol**. I'm interested in planetary atmospheres in our solar system and beyond.
+<link rel="stylesheet" href="/assets/css/colors-auto.css?v=">
+<link rel="stylesheet" href="/assets/css/style.css?v=">
+<link rel="preload" href="https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/LW_headshot.jpg" as="image">
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
 
-I'm currently analysing infrared spectra acquired by [NASA/ESA/ASI's Cassini-Huygens mission](https://solarsystem.nasa.gov/missions/cassini/overview/) to investigate the atmosphere of Saturn's largest moon, Titan.
+<div class="container">
+  <h2>A Plot</h2>
+</div>
 
-I'm supervised by Dr Nick Teanby. My PhD is funded by the Science and Technology Facilities Council (STFC).
+<!-- linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+  </head>
 
-I also enjoy playing water polo.
-
-![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan.png)
-
-* * *
-
-## Education
-
-2021 - present\
-**PhD Geophysics** | Univserity of Bristol
-
-2020 - 2021\
-**PGCE Science (Physics)** | University of Cambridge
-
-2016 - 2020\
-**MPhys Physics** | University of Oxford
-
-
-![Branching](https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/polo_titan_2.png)
-
-* * *
-
+ <body>
+    <div id="graph"></div>
+    <!-- Add third-party dependencies here -->
+      <py-config>
+        packages = ["numpy", "matplotlib"]
+      </py-config>
+      <py-script>
+import numpy as np
+import matplotlib.pyplot as plt
+arr = np.array([1, 2, 3, 4, 5])
+plt.plot(arr)
+plt
+display(plt, target="graph")
+      </py-script>
+  </body>
       </section>
       <footer>
     

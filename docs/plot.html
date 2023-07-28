@@ -1,0 +1,44 @@
+---
+permalink: /plot.html
+layout: default
+---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C96ZKC17TW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C96ZKC17TW');
+</script>
+
+<link rel="stylesheet" href="/assets/css/colors-auto.css?v=">
+<link rel="stylesheet" href="/assets/css/style.css?v=">
+<link rel="preload" href="https://raw.githubusercontent.com/lucy-wright/octopus/master/docs/images/LW_headshot.jpg" as="image">
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+<div class="container">
+  <h2>A Plot</h2>
+</div>
+
+<!-- linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+  </head>
+
+ <body>
+    <div id="graph"></div>
+    <!-- Add third-party dependencies here -->
+      <py-config>
+        packages = ["numpy", "matplotlib"]
+      </py-config>
+      <py-script>
+import numpy as np
+import matplotlib.pyplot as plt
+arr = np.array([1, 2, 3, 4, 5])
+plt.plot(arr)
+plt
+display(plt, target="graph")
+      </py-script>
+  </body>
