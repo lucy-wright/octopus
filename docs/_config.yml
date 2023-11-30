@@ -32,6 +32,8 @@ navigation:
         link: ./index.html#aboutme
       - name: Education
         link: ./index.html#education
+      - name: CV
+        link: ./index.html#cv
   - name: Research
     link: ./conferences.html
   - name: A Plot
