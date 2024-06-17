@@ -32,9 +32,13 @@ navigation:
         link: ./index.html#aboutme
       - name: Education
         link: ./index.html#education
+      - name: Publications
+        link: ./index.html#publications
+      - name: Posters and Talks
+        link: ./index.html#presentations
+      - name: Professional Awards
+        link: ./index.html#awards
       - name: CV
         link: ./index.html#cv
-  - name: Research
+  - name: Conference Photos
     link: ./conferences.html
-  - name: A Plot
-    link: ./plot.html
